@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .rd-navbar-panel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .rd-navbar-brand {
+        order: 1; /* Garante que a logo esteja no meio */
+        flex-grow: 1; /* Faz a logo crescer e ocupar espaço disponível */
+        display: flex;
+        justify-content: center; /* Centraliza a logo dentro do flex container */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    .rd-navbar-toggle {
+        order: 2; /* Garante que o menu hamburguer esteja à direita */
+        position: absolute;
+        right: 10px;
+    }
+    .logo-nav{
+        width: 40px;
+    }
+}
