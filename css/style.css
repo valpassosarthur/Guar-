@@ -103,7 +103,7 @@ body {
 	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.625;
 	font-weight: 400;
-	color: #41516A;
+	color: #001f33;
 }
 
 @media (min-width: 992px) {
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6, .heading-1, .heading-2, .heading-3, .heading-4, .heading
 	margin-bottom: 0;
 	font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-weight: 800;
-	color: #41516A;
+	color: rgb(240, 8, 8);
 	text-transform: uppercase;
 	letter-spacing: .5px;
 }
@@ -1031,7 +1031,7 @@ span.button {
 	border-radius: 50%;
 	text-align: center;
 	color: #fff;
-	background: #80deea;
+	background: #001f33;
 	font-size: 30px;
 	line-height: 2.45em;
 }
@@ -1060,6 +1060,11 @@ span.button {
 		z-index: 1;
 		overflow: hidden;
 	}
+	.botao{
+		border-radius: 13px;
+		background-color:white;
+		justify-content: ;
+	}
 	.desktop .blurb-circle .blurb-circle__icon .icon::after {
 		content: '';
 		display: inline-block;
@@ -1072,7 +1077,7 @@ span.button {
 		z-index: -1;
 		transform: translateX(-100%);
 		border-radius: 50%;
-		background: #1F2845;
+		background: #f6a700;
 	}
 	.desktop .blurb-circle:hover .blurb-circle__icon .icon::after {
 		transform: translateX(0);
@@ -5633,9 +5638,9 @@ a.thumbnail-classic-title:hover {
 .context-dark .post-meta a:hover, .bg-accent .post-meta a:hover, .bg-gray-dark .post-meta a:hover, .bg-black .post-meta a:hover, .bg-gray-darker .post-meta a:hover, .bg-gray-darkest .post-meta a:hover, .bg-image-4 .post-meta a:hover, .bg-image-6 .post-meta a:hover, .bg-image-7 .post-meta a:hover, .bg-image-8 .post-meta a:hover {
 	color: #1F2845;
 }
-
+.cor-titulo-desenvolvimentos
 .context-light h1, .bg-gray-lighter h1, .context-light h2, .bg-gray-lighter h2, .context-light h3, .bg-gray-lighter h3, .context-light h4, .bg-gray-lighter h4, .context-light h5, .bg-gray-lighter h5, .context-light h6, .bg-gray-lighter h6, .context-light .heading-1, .bg-gray-lighter .heading-1, .context-light .heading-2, .bg-gray-lighter .heading-2, .context-light .heading-3, .bg-gray-lighter .heading-3, .context-light .heading-4, .bg-gray-lighter .heading-4, .context-light .heading-5, .bg-gray-lighter .heading-5, .context-light .heading-6, .bg-gray-lighter .heading-6 {
-	color: #41516A;
+	color: #001f33;
 }
 
 @media (max-width: 1199.98px) {
